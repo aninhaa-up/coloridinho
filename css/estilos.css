@@ -1,14 +1,14 @@
 :root {
-  --cinza: #aaa;
-  --vermelha: #e93d50;
-  --vermelha-escura: #af303f;
-  --branca: #fff;
+  --cinza: #b5b076;
+  --vermelha: #db3de9;
+  --vermelha-escura: #b5b076;
+  --branca: #db3de9;
   --luz: rgb(229, 255, 0);
 }
 
 body {
   align-items: center;
-  background: linear-gradient(45deg, #a7cfdf 0%,#23538a 100%);
+  background: linear-gradient(45deg, #1a7202 0%,#043770 100%);
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -17,13 +17,13 @@ body {
 }
 
 h1 {
-  color: var(--branca);
+  color: var(--vermelha-escura);
   margin-bottom: 20px;
   font-size: 2rem;
 }
 
 .teclado {
-  background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%);
+  background: linear-gradient(to bottom, #e7d805 0%,#a004b4 100%);
   box-shadow: 6px 8px 0 6px #666, 10px 10px 10px #000;
   border-radius: 30px;
   display: grid;
