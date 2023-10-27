@@ -44,6 +44,12 @@ function tocaSomTom(){
 }
 document.querySelector('.tecla_tom').onclick = tocaSomTom;
 
+function tocaSomWatt(){
+    document.querySelector('#som_tecla_watt').play();
+}
+document.querySelector('.tecla_watt').onclick = tocaSomWatt;
+
+
 
 
 
