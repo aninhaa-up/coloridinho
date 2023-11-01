@@ -4,10 +4,10 @@ function tocaSomBrasil(){
 }
 document.querySelector('.tecla_brasil').onclick = tocaSomBrasil;
 
-function tocaSomClap(){
-    document.querySelector('#som_tecla_clap').play();
+function tocaSomTacaca(){
+    document.querySelector('#som_tecla_tacaca').play();
 }
-document.querySelector('.tecla_clap').onclick = tocaSomClap;
+document.querySelector('.tecla_tacaca').onclick = tocaSomTacaca;
 
 function tocaSomTim(){
     document.querySelector('#som_tecla_tim').play();
