@@ -1,8 +1,8 @@
 
-function tocaSomPom(){
-    document.querySelector('#som_tecla_pom').play();
+function tocaSomBrasil(){
+    document.querySelector('#som_tecla_brasil').play();
 }
-document.querySelector('.tecla_pom').onclick = tocaSomPom;
+document.querySelector('.tecla_brasil').onclick = tocaSomBrasil;
 
 function tocaSomClap(){
     document.querySelector('#som_tecla_clap').play();
